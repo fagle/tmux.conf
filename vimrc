@@ -58,7 +58,9 @@ filetype plugin indent on
 
 
 """"""""""""""""""""""""""""""""""""""
-
+if exists('$TMUX')
+      set term=screen-256color
+  endif
 set go=             " 不要图形按钮
 
 set guifont=Monaco   " 设置字体
