@@ -378,7 +378,11 @@ let NERDTreeShowBookmarks=1
 let g:solarized_termcolors=256
 syntax enable
 set background=dark
-colorscheme solarized
+if has ("gui_running")
+    colorscheme solarized
+else
+    colorscheme solarized
+endif
 
 
 let g:fuf_file_exclude = '\v\~$|\.meta$'
