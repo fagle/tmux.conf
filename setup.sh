@@ -10,4 +10,7 @@ mv .tmux.conf $dirname
 ln -s $current_dir/cygwin_bashrc .bashrc
 ln -s $current_dir/cygwin_bash_profile .bash_profile
 ln -s $current_dir/tmux.conf .tmux.conf
+ln -s $current_dir/vimrc   .vimrc
+echo todo vundle
+echo todo autojump
 echo done
