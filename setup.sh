@@ -8,6 +8,7 @@ cp .bashrc $dirname
 cp .bash_profile $dirname
 cp .tmux.conf $dirname
 cp .vimrc $dirname
+rm .bashrc .bash_profile .vimrc .tmux.conf
 ln -s $current_dir/cygwin_bashrc .bashrc
 ln -s $current_dir/cygwin_bash_profile .bash_profile
 ln -s $current_dir/tmux.conf .tmux.conf
