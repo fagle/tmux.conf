@@ -56,6 +56,7 @@ let g:lua_complete_omni = 1
 call vundle#end()            " required
 filetype plugin indent on
 
+set t_Co=256 
 
 """"""""""""""""""""""""""""""""""""""
 if exists('$TMUX')

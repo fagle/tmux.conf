@@ -195,6 +195,7 @@
 #   return 0
 # }
 # 
+export TERM=xterm-256color
 # alias cd=cd_func
 export PS1='[\[\e[32m\]\u@\h \[\e[33m\]\W\[\e[0m\]]$ '
 [[ -s /home/fagle/.autojump/etc/profile.d/autojump.sh ]] && source /home/fagle/.autojump/etc/profile.d/autojump.sh
